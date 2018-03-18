@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.yzf.firstcodedemo.RecyclerViewDemo.RecyclerViewDemoActivity;
+import com.yzf.firstcodedemo.newsprojectdemo.StartActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,4 +23,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void newProjectDemoClick(View view) {
+        Intent intent = new Intent(MainActivity.this, StartActivity.class);
+        startActivity(intent);
+    }
 }

@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RecyclerViewDemo.RecyclerViewDemoActivity"/>
+        <activity android:name=".newsprojectdemo.newsProjectActivity"/>
+        <activity android:name=".newsprojectdemo.StartActivity"/>
     </application>
 
 </manifest>

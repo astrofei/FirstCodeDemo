@@ -23,6 +23,12 @@
                 android:layout_height="wrap_content"
                 android:text="3.6 更强大的滚动控件-RecyclerView"
                 android:onClick="recyclerViewDemoClick"/>
+            <Button
+                android:id="@+id/newsproject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.5一个简易版的新闻应用"
+                android:onClick="newProjectDemoClick"/>
 
         </LinearLayout>
     </ScrollView>
